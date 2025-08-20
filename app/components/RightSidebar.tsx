@@ -78,11 +78,6 @@ function RightSidebar() {
               ))}
             </ul>
           </Card>
-
-          <Card className="p-4">
-            <h4 className="text-sm font-medium mb-3">Conclusion</h4>
-            <p className="text-sm text-muted-foreground">{mockSummary.conclusion}</p>
-          </Card>
         </div>
       </ScrollArea>
     </div>
@@ -145,14 +140,6 @@ function RightSidebar() {
                 </Badge>
               ))}
             </div>
-          </Card>
-
-          <Card className="p-4">
-            <div className="flex items-center gap-2 mb-3">
-              <FileText className="h-4 w-4 text-cyan-500" />
-              <span className="text-sm font-medium">Content Type</span>
-            </div>
-            <div className="text-sm">Document</div>
           </Card>
         </div>
       </ScrollArea>
