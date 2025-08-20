@@ -13,7 +13,7 @@ const UploadFile = () => {
         if (file) {
           const formData = new FormData();
           formData.append("pdf", file);
-          await fetch("https://rag-chat-ai-backend.onrender.com/upload/pdf", {
+          await fetch("http://localhost:8000/upload/pdf", {
             method: "POST",
             body: formData,
           });

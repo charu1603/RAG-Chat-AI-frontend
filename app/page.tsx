@@ -1,16 +1,18 @@
-import Image from "next/image";
-import UploadFile from "./components/UploadFile";
-import Chat from "./components/Chat";
 
-export default function Home() {
+import  Navbar  from "./components/Naavbar";
+import  LeftSidebar from "./components/LeftSidebar";
+import  ChatArea  from "./components/Chat";
+import RightSidebar from "./components/RightSidebar";
+
+export default function DocumentChatApp() {
+  
   return (
-    <div className="min-h-screen w-screen flex ">
-      <div className="w-[30vw] min-h-screen flex items-center">
-        <UploadFile />
-      </div>
-      <div className="w-[70vw] min-h-screen border-l-2">
-        <Chat />
-      </div>
+    <div className="flex h-[100vh] bg-background overflow-hidden">
+      <Navbar />
+      <LeftSidebar/>
+      <ChatArea />
+      <RightSidebar />
+   
     </div>
   );
 }
