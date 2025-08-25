@@ -2,6 +2,11 @@
 
 A **Retrieval-Augmented Generation (RAG)** application that allows users to upload PDF documents, extract embeddings using **Google Gemini API**, store them in **Qdrant Vector Store**, and chat with the AI using document context. The PDFs are uploaded to **Cloudinary**, and the task queue is managed via **BullMQ** with **Upstash Redis**.
 
+
+
+https://github.com/user-attachments/assets/881e1245-c107-4122-add2-cb76e4930f42
+
+
 ---
 # BACKEND REPO
 Follow instructions to setup the backend from the Readme file.
