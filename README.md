@@ -7,11 +7,10 @@ A **Retrieval-Augmented Generation (RAG)** application that allows users to uplo
 ## Features
 
 1. Upload PDF files via a web interface.
-2. Store PDFs on **Cloudinary** for cloud storage.
-3. Extract embeddings from PDFs using **Google Gemini Embeddings**.
-4. Store embeddings in **Qdrant Vector Store**.
-5. Query AI assistant with document context.
-6. Worker-based asynchronous processing using **BullMQ**.
+2. Extract embeddings from PDFs using **Google Gemini Embeddings**.
+3. Store embeddings in **Qdrant Vector Store**.
+4. Query AI assistant with document context.
+5. Worker-based asynchronous processing using **BullMQ**.
 
 ---
 
@@ -20,10 +19,8 @@ A **Retrieval-Augmented Generation (RAG)** application that allows users to uplo
 - **Frontend:** NextJS
 - **Backend:** Node.js, Express
 - **Queue:** BullMQ
-- **Storage:** Cloudinary (for PDF files)
 - **Embeddings:** Google Gemini API via `@langchain/google-genai`
 - **Vector Database:** Qdrantdb
-- **Cache/Queue Backend:** Upstash Redis
 - **PDF Loader:** `@langchain/community/document_loaders/fs/pdf`
 
 ---
